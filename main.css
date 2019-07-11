@@ -1,5 +1,4 @@
 
-
 nav{
 
 width: 100%;
@@ -25,10 +24,9 @@ box-shadow: 0 0 32px rgba(0,0,0,.15);
 
 }
 .dark-nav > li{
-	padding-left: 5px;
+	padding-left: 25px;
 }
-.dark-nav > .news > a{
-  
+.dark-nav > .news-one > a{
   color: white;
 }
 .dark-nav > li > a{
@@ -61,7 +59,7 @@ box-shadow: 0 0 32px rgba(0,0,0,.15);
 	color: rgb(176, 176, 176);
 	font-size: 16px;
 font-weight: 600;
-margin-left: 14px;
+
 
 }
 .white-nav > li > a:hover{
@@ -81,6 +79,7 @@ margin-left: 14px;
 
 
 .first-content{
+	margin-top: 50px;
 	display: flex;
 	flex-direction:row;
 	width: 100%;
@@ -94,7 +93,6 @@ margin-left: 14px;
 	display: flex;
 	width: 850px;
 	height: 300px;
-	border: 1px solid red;
 	box-sizing: border-box;
 
 
@@ -102,7 +100,7 @@ margin-left: 14px;
 .article-wrap{
 
 background: linear-gradient(to top, rgba(195, 20, 50, 12.41), rgba(36, 11, 54, 0.41) );
-	background-position: cover;
+	background-size: cover;
 	background-repeat: no-repeat;
 		height: 300px;
 		width: 100%;
@@ -183,14 +181,13 @@ margin-left: 10px;
 .second-div{
 	width: 490px;
 	height: 145px;
-	border: 1px solid red;
 	box-sizing: border-box;
 	
 }
 .third-div{
     width: 490px;
 	height: 145px;
-	border: 1px solid red;
+	
 	box-sizing: border-box;
     margin-top: 10px;
 
@@ -198,10 +195,10 @@ margin-left: 10px;
 
 .article-wrap-two{
 	background-image: url("images/netflix.png");
-	    background-size: 100% 100%;
 	background-repeat: no-repeat;
 		height: 145px;
 		width: 100%;
+		    background-size: 100% 100%;
 }
 .article-content{
     padding-top: 35px;
@@ -236,13 +233,13 @@ font-size: 14px;
 		width: 20px;
 			padding-top: 10px;
 }
-.three{
+.article-wrap-three{
 
-	background-image: url("images/trump.jpg");
-	    background-size: 100% 100%;
+	background-image: url("images/building2.jpg");
 	background-repeat: no-repeat;
 		height: 145px;
 		width: 100%;
+		    background-size: 100% 100%;
 
 }
 /*SECOND CONTENT*/
@@ -253,6 +250,7 @@ font-size: 14px;
 	flex-direction: column;
 width: 90%;
 	margin:0 auto;
+	margin-bottom: 50px;
 }
 .news{
 	margin-bottom: 50px;
@@ -310,12 +308,13 @@ background-image: url("images/red.jpg");
 
 }
 .small-link >p{
-	margin-top: 10px;
 	color: grey;
+	    margin-top: 10px;
+	    font-size: 14px;
 }
 
 .second-row{
-	margin-top: 20px;
+	    margin-top: 50px;
 }
 
 .row-one{
@@ -330,6 +329,122 @@ background-image: url("images/programmer.jpg");
 .row-four{
 	background-image: url("images/mark.png");
 }
+
+
+/*THIRD CONTENT*/
+
+.third-content{
+
+display: flex;
+flex-direction: column;
+width: 90%;
+margin:0 auto;
+}
+
+.informer-row{
+	display: flex;
+	flex-direction: row;
+
+}
+.informer{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	height: 135px;
+		width: 270px;
+
+
+}
+.informer-space{
+	margin-left: 30px;
+}
+
+.small-header{
+	width: 100%;
+	height: 30px;
+	background: #f42;
+	position: relative;
+}
+.small-header > h4{
+	padding-left: 80px;
+	font-size: 20px;
+	padding-top: 5px;
+	color: white;
+	font-weight: 600;
+}
+.small-header > img{
+	height: 60px;
+	width: 60px;
+	position: absolute;
+	left: 10px;
+	top: 5px;
+}
+.small-content{
+	margin-top: 10px;
+	text-align: center;
+	background:#FFEBE7;
+
+}
+.icon-link{
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px; 
+	margin-left: 10px;
+	
+}
+.icon-link > img{
+	height: 16px;
+	width: 16px;
+}
+
+.small-content > .icon-link > a{
+	text-decoration: none;
+	color: #555555;
+	font-size: 13px;
+	text-align: left;
+	padding-left: 5px;
+	
+}
+.small-content > h4,.small-content > h5{
+display: block;
+padding-top: 5px;
+color: #555555;
+
+}
+.small-content > h4{
+	font-weight: 900;
+     
+}
+.small-content > h5{
+	margin-bottom: 50px;
+	    padding-left: 28px;
+}
+
+.small-footer{
+width: 100%;
+	height: 50px;
+
+}
+.small-footer > div{
+	height: 30px;
+	margin-top: 15px;
+	border-top: 3px solid #FFCDC2;
+}
+ .small-footer-link{
+ 	display: block;
+	font-size: 12px;
+	text-decoration:none;
+	color: #555555;
+	margin-top: 5px;
+	    width: 78%;
+	    margin-left: 10px;
+	
+
+}
+
+
+
+
 
 @media all and (max-width: 480px)  {
 	nav{
@@ -383,6 +498,7 @@ display: none;
 .first-content{
 
 	flex-direction: column;
+	width: 100%;
 }
 
 .first-div
@@ -410,6 +526,14 @@ flex:1 1 20rem;
 
 	width: 100%;
 }
+
+.row{
+	flex-direction: column;
+}
+.informer-row{
+	flex-direction: column;
+}
+
 
 
 }
