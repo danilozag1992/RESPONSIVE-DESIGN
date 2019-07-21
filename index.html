@@ -4,731 +4,572 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=B612+Mono|DM+Serif+Display&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/screen.css">
+  <link href="https://fonts.googleapis.com/css?family=B612+Mono|DM+Serif+Display&display=swap" rel="stylesheet">
     <title>Responsive Design</title>
 </head>
 
 <body>
-    <nav>
-        <div class="logo">
-            <img src="images/logo.svg" alt="logo">
-        </div>
+  
+       <nav class="nav">
+         
+           <ul class="nav__dark">
+         <li class="nav__list"><a class="nav__link" href="#">News</a></li>
+        <li class="nav__list"><a class="nav__link" href="#">Events</a></li>
+      <li class="nav__list"><a class="nav__link" href="#">Business</a></li>
+      <li class="nav__list"><a class="nav__link" href="#">AMAs</a></li>
+      <li class="nav__list"><a class="nav__link" href="#">Spaces</a></li>
+      <li class="nav__list"><a class="nav__link" href="#">Terms &amp; Conditions </a></li>
+           </ul> 
+           <div class="nav__sticky">
+                <div class="nav__logo nav__logo--display-mobile">
+              <img class="nav__logo-img" src="images/logo.svg" alt="">
+              
+          </div>
+                     <ul class="nav__white">
+             <li class="nav__list"><a class="nav__link" href="#">LATEST</a></li>       
+               <li class="nav__list"><a class="nav__link" href="#">HARD FORK</a></li>
+               <li class="nav__list"><a class="nav__link" href="#">PLUGGED</a></li>
+               <li class="nav__list"><a class="nav__link" href="#">FUNDAMENTALS</a></li>
+               <li class="nav__list"><a class="nav__link" href="#">WORK 2030</a></li>
+         
+           </ul>
+                  <div class="nav__icon">
+             <img class="nav__search" src="images/search.png" alt="">
+            <img class="nav__menu" src="images/menu.png" alt="icon">
 
-        <ul class="dark-nav">
-            <li class="news-one"><a href="#">News</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">AMAs</a></li>
-            <li><a href="#">Spaces</a></li>
-            <li><a href="#">Terms &amp; Conditions </a></li>
-        </ul>
-
-        <ul class="white-nav">
-           <li  class="list-logo">
-            <img class="logo-one" src="images/logo.svg" alt="logo">
-       </li>
-            <li><a href="#">LATEST</a></li>
-            <li><a href="#">HARD FORK</a></li>
-            <li><a href="#">PLUGGED</a></li>
-            <li><a href="#">FUNDAMENTALS</a></li>
-            <li><a href="#">WORK 2030</a></li>
-            <li> <img src="images/search.png" alt=""></li>
-        </ul>
-
-        <div class="menu-icon">
-            <img class="search" src="images/search.png" alt="">
-            <img class="menu" src="images/menu.png" alt="icon">
-
-        </div>
-
-
-    </nav>
-    <main>
-        <section class="first-content">
-
-            <article class="first-div">
-                <a class="background-first" href="#">
-                    <div>
-                        <div class="article-head">
-                            <img src="images/logo.svg" alt="logo">
-                            <p>Wednesday-July 10, 2019</p>
+          </div>
+               
+           </div>
+    
+       </nav>
+ <main class="main">
+     <section class="first-article">
+         <article class="first-article__wrap">
+             <a href="" class="first-article__link-one">
+                   <div>
+                        <div class="first-article__article-head">
+                            <img src="images/logo.svg" alt="logo" class="first-article__logo">
+                            <span>Wednesday-July 10, 2019</span>
                         </div>
 
-                        <p>RNEXT 2019 JOIN TNW and Adyen in Brazil</p>
-                        <div class="by-who">
-                            <p>
+                        <p class="first-article__para-one first-article--lg-font">This Bluetooth security flaw could let hackers track your Windows, iOS, and macOS devices</p>
+                        <div class="first-article__by">
+                            <p class="first-article__para-two first-article--padding-right">
                                 By David Canellis
                             </p>
-                            <img class="clock" src="images/clock.svg" alt="icon">
-                            <p>1 hour ago</p>
-                            <img class="share" src="images/share.svg" alt="icon">
-                            <p>1</p>
+                            <img class="first-article__clock first-article--padding-right" src="images/clock.svg" alt="icon">
+                            <p class="first-article__para-three first-article--padding-right">1 hour ago</p>
+                            <img class="first-article__share first-article--padding-right" src="images/share.svg" alt="icon">
+                            <p class="first-article__para-four first-article--padding-right">1</p>
                         </div>
                     </div>
-                </a>
+                 
+                 
+             </a>
+         </article>
+         <article class="first-article__part-two">
+             <article class="first-article__wrap-two">
+                    <a href="" class="first-article__link-one">
+                   <div>
+                  
 
-
-
-            </article>
-            <article class="column">
-                <article class="second-div">
-                    <a class="background-two" href="#">
-                        <div class="article-wrap-two">
-                            <div class="article-content">
-                                <p class="tech">TECH</p>
-                                <p class="agent">Agent Smith’ malware replaces legit Android apps with fake ones on 25 million devices</p>
-                                <div class="by-who-two">
-                                    <p>
-                                        Ravie Lakshmanan
-                                    </p>
-                                    <img class="clock-two" src="images/clock.svg" alt="icon">
-                                    <p>2 hour ago</p>
-                                    <img class="share-two" src="images/share.svg" alt="icon">
-                                    <p>1</p>
-                                </div>
-                            </div>
+                        <p class="first-article__para-one first-article--margin-top first-article--md-font">This Bluetooth security flaw could let hackers track your Windows, iOS, and macOS devices</p>
+                        <div class="first-article__by">
+                            <p class="first-article__para-two first-article--padding-right">
+                                By David Canellis
+                            </p>
+                            <img class="first-article__clock first-article--padding-right" src="images/clock.svg" alt="icon">
+                            <p class="first-article__para-three first-article--padding-right">1 hour ago</p>
+                            <img class="first-article__share first-article--padding-right" src="images/share.svg" alt="icon">
+                            <p class="first-article__para-four first-article--padding-right">1</p>
                         </div>
-                    </a>
+                    </div>
+                 
+                 
+             </a>
+                 
+             </article>
+             <article  class="first-article__wrap-three">
+                    <a href="" class="first-article__link-one">
+                   <div>
+                     
 
-                </article>
-                <article class="third-div">
-                    <a class="background-two" href="#">
-                        <div class="article-wrap-three">
-                            <div class="article-content">
-                                <p class="tech">GEAR</p>
-                                <p class="agent">Nintendo’s new Switch Lite can’t actually ‘switch’</p>
-                                <div class="by-who-two">
-                                    <p>
-                                        Mix
-                                    </p>
-                                    <img class="clock-two" src="images/clock.svg" alt="icon">
-                                    <p>2 hour ago</p>
-                                    <img class="share-two" src="images/share.svg" alt="icon">
-                                    <p>0</p>
-                                </div>
-                            </div>
+                      <p class="first-article__para-one first-article--margin-top first-article--md-font">This Bluetooth security flaw could let hackers track your Windows, iOS, and macOS devices</p>
+                        <div class="first-article__by">
+                            <p class="first-article__para-two first-article--padding-right">
+                                By David Canellis
+                            </p>
+                            <img class="first-article__clock first-article--padding-right" src="images/clock.svg" alt="icon">
+                            <p class="first-article__para-three first-article--padding-right">1 hour ago</p>
+                            <img class="first-article__share first-article--padding-right" src="images/share.svg" alt="icon">
+                            <p class="first-article__para-four first-article--padding-right">1</p>
                         </div>
-                    </a>
-
-                </article>
-            </article>
-        </section>
-
-
-
-        <!--  SECOND CONTENT -->
-
-        <section class="second-content">
-
-            <!-- FIRST LINK -->
-            <div class="news"><a href="#">LATEST NEWS <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a></div>
-            <!-- FIRST ROW -->
-            <div class="row">
-
-                <article class="first-clip">
-                    <div class="smallest-clip number-one">
+                    </div>
+                 
+                 
+             </a>
+                 
+                 
+             </article>
+         </article>
+     </section>
+     <section class="second-article">
+            <div class="second-article__news">
+            <a href="#" class="second-article__link second-article__link--orange second-article__link--bold">LATEST NEWS <i style="font-size:20px; color:orangered" class="fas fa-angle-right"></i></a>
+            </div>
+            <div class="second-article__row">
+                
+                <article class="second-article__clip">
+                    <div class="second-article__bg second-article__bg--one">
 
                     </div>
 
-                    <div class="small-link">
-                        <a href="#">
+                    <div class="second-article__wrap">
+                        <a href="#"  class="second-article__link second-article__link--bold">
+					Scary video shows Delta plane engine malfunction before emergency landing
+						</a>
+                        <p>Mix 3 hours ago</p>
+                    </div>
+                </article>   
+                <article class="second-article__clip">
+                    <div class="second-article__bg second-article__bg--one">
+
+                    </div>
+
+                    <div class="second-article__wrap">
+                        <a href="#"  class="second-article__link second-article__link--bold">
+					Scary video shows Delta plane engine malfunction before emergency landing
+						</a>
+                        <p>Mix 3 hours ago</p>
+                    </div>
+                </article>   
+                <article class="second-article__clip">
+                    <div class="second-article__bg second-article__bg--one">
+
+                    </div>
+
+                    <div class="second-article__wrap">
+                        <a href="#"  class="second-article__link second-article__link--bold">
+					Scary video shows Delta plane engine malfunction before emergency landing
+						</a>
+                        <p>Mix 3 hours ago</p>
+                    </div>
+                </article>   
+                <article class="second-article__clip">
+                    <div class="second-article__bg second-article__bg--one">
+
+                    </div>
+
+                    <div class="second-article__wrap">
+                        <a href="#"  class="second-article__link second-article__link--bold">
+					Scary video shows Delta plane engine malfunction before emergency landing
+						</a>
+                        <p>Mix 3 hours ago</p>
+                    </div>
+                </article>   
+                <article class="second-article__clip">
+                    <div class="second-article__bg second-article__bg--one">
+
+                    </div>
+
+                    <div class="second-article__wrap">
+                        <a href="#"  class="second-article__link second-article__link--bold">
+					Scary video shows Delta plane engine malfunction before emergency landing
+						</a>
+                        <p>Mix 3 hours ago</p>
+                    </div>
+                </article>   
+                <article class="second-article__clip">
+                    <div class="second-article__bg second-article__bg--one">
+
+                    </div>
+
+                    <div class="second-article__wrap">
+                        <a href="#"  class="second-article__link second-article__link--bold">
+					Scary video shows Delta plane engine malfunction before emergency landing
+						</a>
+                        <p>Mix 3 hours ago</p>
+                    </div>
+                </article>   
+                <article class="second-article__clip">
+                    <div class="second-article__bg second-article__bg--one">
+
+                    </div>
+
+                    <div class="second-article__wrap">
+                        <a href="#"  class="second-article__link second-article__link--bold">
+					Scary video shows Delta plane engine malfunction before emergency landing
+						</a>
+                        <p>Mix 3 hours ago</p>
+                    </div>
+                </article>   <article class="second-article__clip">
+                    <div class="second-article__bg second-article__bg--one">
+
+                    </div>
+
+                    <div class="second-article__wrap">
+                        <a href="#"  class="second-article__link second-article__link--bold">
 					Scary video shows Delta plane engine malfunction before emergency landing
 						</a>
                         <p>Mix 3 hours ago</p>
                     </div>
                 </article>
-                <article class="first-clip">
-                    <div class="smallest-clip number-two">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-					Shitposters are using sophisticated Bitcoin satellites to troll each other
-						</a>
-                        <p>David Canellis 5 hours ago</p>
-                    </div>
-                </article>
-
-                <article class="first-clip">
-                    <div class="smallest-clip number-three">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-				'Agent Smith' malware replaces legit Android apps with fake ones on 25 million devices
-						</a>
-                        <p>Ravie Lakshmanan 5 hours ago</p>
-                    </div>
-                </article>
-                <article class="first-clip">
-                    <div class="smallest-clip number-four">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-				Nintendo’s new Switch Lite can’t actually ‘switch' two players.
-						</a>
-                        <p>Mix 6 hours ago</p>
-                    </div>
-                </article>
             </div>
-
-            <div class="row second-row">
-
-                <article class="first-clip">
-                    <div class="smallest-clip row-one">
-
+            
+     </section>
+     <section class="third-article">
+          <div class="third-article__news"><a href="#" class="third-article__link third-article__link--orange third-article__link--bold">Latest funding rounds on Index.co <i style="font-size:13px; color:orangered" class="fas fa-angle-right"></i> </a></div>
+         <div class="third-article__row">
+                     <article class="third-article__informer">
+                    <div class="third-article__header">
+                        <img  class="third-article__img" src="images/small-img.png" alt="">
+                        <h4 class="third-article__h4 third-article__h4--spacing">Subjectwell</h4>
                     </div>
-
-                    <div class="small-link">
-                        <a href="#">
-				We can thank the Apollo moon missions for these widely used technologiesg
-						</a>
-                        <p>The Conversation6 hours ago</p>
-                    </div>
-                </article>
-                <article class="first-clip">
-                    <div class="smallest-clip row-two">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-					CHEAP: A Philips Hue starter kit (with white & color bulbs) for $110? SÍ, DA, JA, YES!
-						</a>
-                        <p>Callum Booth 6 hours ago</p>
-                    </div>
-                </article>
-
-                <article class="first-clip">
-                    <div class="smallest-clip  row-three">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-		Supercharge Your Windows Efficiency with this $20 PowerShell Bundle
-						</a>
-                        <p>TNW Deals 6 hours ago</p>
-                    </div>
-                </article>
-                <article class="first-clip">
-                    <div class="smallest-clip row-four">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-					Mark Zuckerberg’s ‘new rules’ for the internet happen to benefit Facebook
-						</a>
-                        <p>John Buni 7 hours ago</p>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- THIRD CONTENT -->
-
-        <section class="third-content">
-
-            <div class="news"><a href="#">Latest funding rounds on Index.co <i style="font-size:23px; color:orangered" class="fas fa-angle-right"></i> </a></div>
-            <!-- FIRST ROW -->
-            <div class="informer-row">
-
-                <article class="informer">
-                    <div class="small-header">
-                        <img src="images/small-img.png" alt="">
-                        <h4>Subjectwell</h4>
-                    </div>
-                    <div class="small-content">
-                        <h4>$10M</h4>
-                        <h5>SERIES A</h5>
-                        <div class="icon-link">
-                            <img src="images/tag-solid.svg" alt="icon">
-                            <a href="#">Pharmaceuticals, +2</a>
+                    <div class="third-article__content">
+                        <h4 class="third-article__h4 third-article__h4--pd-left">$10M</h4>
+                        <h5 class="third-article__h4 third-article__h4--pd-left">SERIES A</h5>
+                        <div class="third-article__icon-link">
+                            <img class="third-article__icon" src="images/tag-solid.svg" alt="icon">
+                            <a href="#" class="third-article__link">Pharmaceuticals, +2</a>
                         </div>
-                        <div class="icon-link">
-                            <img src="images/briefcase-solid.svg" alt="icon">
-                            <a href="#">Windham Venture Partners, +2</a>
+                        <div class="third-article__icon-link">
+                            <img class="third-article__icon" src="images/briefcase-solid.svg" alt="icon">
+                            <a href="#" class="third-article__link">Windham Venture Partners, +2</a>
                         </div>
                     </div>
 
-                    <div class="small-footer">
-                        <div>
-                            <a class="small-footer-link" href="#">SubjectWell nabs $10 mln Series A on PE Hub</a>
-                        </div>
+                    <div class="third-article__footer">
+                            <a class="third-article__link" href="#">SubjectWell nabs $10 mln Series A on PE Hub</a>
                     </div>
 
                 </article>
-
-                <article class="informer">
-                    <div class="small-header">
-                        <img src="images/small-img.png" alt="">
-                        <h4>Spring Labs</h4>
+                <article class="third-article__informer">
+                    <div class="third-article__header">
+                        <img  class="third-article__img" src="images/small-img.png" alt="">
+                        <h4 class="third-article__h4 third-article__h4--spacing">Subjectwell</h4>
                     </div>
-                    <div class="small-content">
-                        <h4>$23M</h4>
-                        <h5>SERIES A</h5>
-                        <div class="icon-link">
-                            <img src="images/tag-solid.svg" alt="icon">
-                            <a href="#">Security</a>
+                    <div class="third-article__content">
+                        <h4 class="third-article__h4 third-article__h4--pd-left">$10M</h4>
+                        <h5 class="third-article__h4 third-article__h4--pd-left">SERIES A</h5>
+                        <div class="third-article__icon-link">
+                            <img class="third-article__icon" src="images/tag-solid.svg" alt="icon">
+                            <a href="#" class="third-article__link">Pharmaceuticals, +2</a>
                         </div>
-                        <div class="icon-link">
-                            <img src="images/briefcase-solid.svg" alt="icon">
-                            <a href="#">August Capital, +2</a>
+                        <div class="third-article__icon-link">
+                            <img class="third-article__icon" src="images/briefcase-solid.svg" alt="icon">
+                            <a href="#" class="third-article__link">Windham Venture Partners, +2</a>
                         </div>
                     </div>
 
-                    <div class="small-footer">
-                        <div>
-                            <a class="small-footer-link" href="#">General Motors Leads $23M Funding Round for Spring Labs Blockchain Firm on CoinTelegraph</a>
-                        </div>
+                    <div class="third-article__footer">
+                            <a class="third-article__link" href="#">SubjectWell nabs $10 mln Series A on PE Hub</a>
                     </div>
 
                 </article>
-                <article class="informer">
-                    <div class="small-header">
-                        <img src="images/small-img.png" alt="">
-                        <h4>Symphony</h4>
+                <article class="third-article__informer">
+                    <div class="third-article__header">
+                        <img  class="third-article__img" src="images/small-img.png" alt="">
+                        <h4 class="third-article__h4 third-article__h4--spacing">Subjectwell</h4>
                     </div>
-                    <div class="small-content">
-                        <h4>$165M</h4>
-                        <h5>SERIES E</h5>
-                        <div class="icon-link">
-                            <img src="images/tag-solid.svg" alt="icon">
-                            <a href="#">Messaging, +4</a>
+                    <div class="third-article__content">
+                        <h4 class="third-article__h4 third-article__h4--pd-left">$10M</h4>
+                        <h5 class="third-article__h4 third-article__h4--pd-left">SERIES A</h5>
+                        <div class="third-article__icon-link">
+                            <img class="third-article__icon" src="images/tag-solid.svg" alt="icon">
+                            <a href="#" class="third-article__link">Pharmaceuticals, +2</a>
                         </div>
-                        <div class="icon-link">
-                            <img src="images/briefcase-solid.svg" alt="icon">
-                            <a href="#">Standard Chartered bank</a>
+                        <div class="third-article__icon-link">
+                            <img class="third-article__icon" src="images/briefcase-solid.svg" alt="icon">
+                            <a href="#" class="third-article__link">Windham Venture Partners, +2</a>
                         </div>
                     </div>
 
-                    <div class="small-footer">
-                        <div>
-                            <a class="small-footer-link" href="#">US-based collaboration platform Symphony bags $165m to expand into Asia on Tech in Asia</a>
-                        </div>
+                    <div class="third-article__footer">
+                            <a class="third-article__link" href="#">SubjectWell nabs $10 mln Series A on PE Hub</a>
                     </div>
 
                 </article>
-                <article class="informer">
-                    <div class="small-header">
-                        <img src="images/small-img.png" alt="">
-                        <h4>Buyandship</h4>
+                <article class="third-article__informer third-article__informer--hidden">
+                    <div class="third-article__header">
+                        <img  class="third-article__img" src="images/small-img.png" alt="">
+                        <h4 class="third-article__h4 third-article__h4--spacing">Subjectwell</h4>
                     </div>
-                    <div class="small-content">
-                        <h4>$2.2M</h4>
-                        <h5>SERIES A</h5>
-                        <div class="icon-link">
-                            <img src="images/tag-solid.svg" alt="icon">
-                            <a href="#">E-Commerce,+3</a>
+                    <div class="third-article__content">
+                        <h4 class="third-article__h4 third-article__h4--pd-left">$10M</h4>
+                        <h5 class="third-article__h4 third-article__h4--pd-left">SERIES A</h5>
+                        <div class="third-article__icon-link">
+                            <img class="third-article__icon" src="images/tag-solid.svg" alt="icon">
+                            <a href="#" class="third-article__link">Pharmaceuticals, +2</a>
                         </div>
-                        <div class="icon-link">
-                            <img src="images/briefcase-solid.svg" alt="icon">
-                            <a href="#">Infinity Venture partners</a>
+                        <div class="third-article__icon-link">
+                            <img class="third-article__icon" src="images/briefcase-solid.svg" alt="icon">
+                            <a href="#" class="third-article__link">Windham Venture Partners, +2</a>
                         </div>
                     </div>
 
-                    <div class="small-footer">
-                        <div>
-                            <a class="small-footer-link" href="#">Ecommerce shipping startup banks $2.2m in pre-series B round on Tech in Asia</a>
-                        </div>
+                    <div class="third-article__footer">
+                            <a class="third-article__link" href="#">SubjectWell nabs $10 mln Series A on PE Hub</a>
                     </div>
 
                 </article>
+             
+             
+         </div>
+       
+     </section>
+       <section class="fourth-article">
 
-            </div>
-
-
-
-
-
-
-        </section>
-        <!-- FOURTH CONTENT -->
-
-        <section class="fourth-content">
-
-            <div class="article-row">
-                <article>
-                    <a href="#">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
-                    <a href="">
-                        <div class="article-text">
-                            <p>Most Popular</p>
-                            <p> Google declutters its news tab on desktop search pages with a fresh look</p>
-                            <p>Ivan Mehta - 6 hours ago</p>
+            <div class="fourth-article__row">
+                <article class="fourth-article__content">
+                    <a href="#" class="fourth-article__link fourth-article__link--bold fourth-article__link--orange">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
+                    <a href="" class="fourth-article__bg-link">
+                        <div class="fourth-article__text">
+                            <p class="fourth-article__p">Most Popular</p>
+                            <p class="fourth-article__p fourth-article__p--font"> Google declutters its news tab on desktop search pages with a fresh look</p>
+                            <p class="fourth-article__p fourth-article__p--color-spacing">Ivan Mehta - 6 hours ago</p>
                         </div>
                     </a>
-                    <div class="article-link">
-                        <div>
-                            <h3>LATEST</h3>
-                            <a href="#">North Korea launches an ebook to spread ideology among its people</a>
+                    <div class="fourth-article__orange-content">
+                        <div class="fourth-article__orange-wrap">
+                            <h3 class="fourth-article__h3">LATEST</h3>
+                            <a href="#" class="fourth-article__link fourth-article__link--orange fourth-article__link--font">North Korea launches an ebook to spread ideology among its people</a>
 
                         </div>
-                        <div class="kim">
-
-
-                        </div>
+                        <div class="fourth-article__kim"> </div>
                     </div>
                     <ul>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
                     </ul>
 
                 </article>
-                <article>
-                    <a href="#">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
-                    <a href="">
-                        <div class="article-text">
-                            <p>Most Popular</p>
-                            <p> Google declutters its news tab on desktop search pages with a fresh look</p>
-                            <p>Ivan Mehta - 6 hours ago</p>
+               
+        <article class="fourth-article__content">
+                    <a href="#" class="fourth-article__link fourth-article__link--bold fourth-article__link--orange">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
+                    <a href="" class="fourth-article__bg-link">
+                        <div class="fourth-article__text">
+                            <p class="fourth-article__p">Most Popular</p>
+                            <p class="fourth-article__p fourth-article__p--font"> Google declutters its news tab on desktop search pages with a fresh look</p>
+                            <p class="fourth-article__p fourth-article__p--color-spacing">Ivan Mehta - 6 hours ago</p>
                         </div>
                     </a>
-                    <div class="article-link">
-                        <div>
-                            <h3>LATEST</h3>
-                            <a href="#">North Korea launches an ebook to spread ideology among its people</a>
+                    <div class="fourth-article__orange-content">
+                        <div class="fourth-article__orange-wrap">
+                            <h3 class="fourth-article__h3">LATEST</h3>
+                            <a href="#" class="fourth-article__link fourth-article__link--orange fourth-article__link--font">North Korea launches an ebook to spread ideology among its people</a>
 
                         </div>
-                        <div class="kim">
-
-
-                        </div>
+                        <div class="fourth-article__kim"> </div>
                     </div>
                     <ul>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
                     </ul>
 
                 </article>
-                <article>
-                    <a href="#">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
-                    <a href="">
-                        <div class="article-text">
-                            <p>Most Popular</p>
-                            <p> Google declutters its news tab on desktop search pages with a fresh look</p>
-                            <p>Ivan Mehta - 6 hours ago</p>
+               
+        <article class="fourth-article__content">
+                    <a href="#" class="fourth-article__link fourth-article__link--bold fourth-article__link--orange">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
+                    <a href="" class="fourth-article__bg-link">
+                        <div class="fourth-article__text">
+                            <p class="fourth-article__p">Most Popular</p>
+                            <p class="fourth-article__p fourth-article__p--font"> Google declutters its news tab on desktop search pages with a fresh look</p>
+                            <p class="fourth-article__p fourth-article__p--color-spacing">Ivan Mehta - 6 hours ago</p>
                         </div>
                     </a>
-                    <div class="article-link">
-                        <div>
-                            <h3>LATEST</h3>
-                            <a href="#">North Korea launches an ebook to spread ideology among its people</a>
+                    <div class="fourth-article__orange-content">
+                        <div class="fourth-article__orange-wrap">
+                            <h3 class="fourth-article__h3">LATEST</h3>
+                            <a href="#" class="fourth-article__link fourth-article__link--orange fourth-article__link--font">North Korea launches an ebook to spread ideology among its people</a>
 
                         </div>
-                        <div class="kim">
-
-
-                        </div>
+                        <div class="fourth-article__kim"> </div>
                     </div>
                     <ul>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
                     </ul>
 
                 </article>
-                          <article>
-                    <a href="#">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
-                    <a href="">
-                        <div class="article-text">
-                            <p>Most Popular</p>
-                            <p> Google declutters its news tab on desktop search pages with a fresh look</p>
-                            <p>Ivan Mehta - 6 hours ago</p>
+               
+        <article class="fourth-article__content">
+                    <a href="#" class="fourth-article__link fourth-article__link--bold fourth-article__link--orange">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
+                    <a href="" class="fourth-article__bg-link">
+                        <div class="fourth-article__text">
+                            <p class="fourth-article__p">Most Popular</p>
+                            <p class="fourth-article__p fourth-article__p--font"> Google declutters its news tab on desktop search pages with a fresh look</p>
+                            <p class="fourth-article__p fourth-article__p--color-spacing">Ivan Mehta - 6 hours ago</p>
                         </div>
                     </a>
-                    <div class="article-link">
-                        <div>
-                            <h3>LATEST</h3>
-                            <a href="#">North Korea launches an ebook to spread ideology among its people</a>
+                    <div class="fourth-article__orange-content">
+                        <div class="fourth-article__orange-wrap">
+                            <h3 class="fourth-article__h3">LATEST</h3>
+                            <a href="#" class="fourth-article__link fourth-article__link--orange fourth-article__link--font">North Korea launches an ebook to spread ideology among its people</a>
 
                         </div>
-                        <div class="kim">
-
-
-                        </div>
+                        <div class="fourth-article__kim"> </div>
                     </div>
                     <ul>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
                     </ul>
 
                 </article>
+               
+        <article class="fourth-article__content">
+                    <a href="#" class="fourth-article__link fourth-article__link--bold fourth-article__link--orange">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
+                    <a href="" class="fourth-article__bg-link">
+                        <div class="fourth-article__text">
+                            <p class="fourth-article__p">Most Popular</p>
+                            <p class="fourth-article__p fourth-article__p--font"> Google declutters its news tab on desktop search pages with a fresh look</p>
+                            <p class="fourth-article__p fourth-article__p--color-spacing">Ivan Mehta - 6 hours ago</p>
+                        </div>
+                    </a>
+                    <div class="fourth-article__orange-content">
+                        <div class="fourth-article__orange-wrap">
+                            <h3 class="fourth-article__h3">LATEST</h3>
+                            <a href="#" class="fourth-article__link fourth-article__link--orange fourth-article__link--font">North Korea launches an ebook to spread ideology among its people</a>
+
+                        </div>
+                        <div class="fourth-article__kim"> </div>
+                    </div>
+                    <ul>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
+                    </ul>
+
+                </article>
+               
+        <article class="fourth-article__content">
+                    <a href="#" class="fourth-article__link fourth-article__link--bold fourth-article__link--orange">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
+                    <a href="" class="fourth-article__bg-link">
+                        <div class="fourth-article__text">
+                            <p class="fourth-article__p">Most Popular</p>
+                            <p class="fourth-article__p fourth-article__p--font"> Google declutters its news tab on desktop search pages with a fresh look</p>
+                            <p class="fourth-article__p fourth-article__p--color-spacing">Ivan Mehta - 6 hours ago</p>
+                        </div>
+                    </a>
+                    <div class="fourth-article__orange-content">
+                        <div class="fourth-article__orange-wrap">
+                            <h3 class="fourth-article__h3">LATEST</h3>
+                            <a href="#" class="fourth-article__link fourth-article__link--orange fourth-article__link--font">North Korea launches an ebook to spread ideology among its people</a>
+
+                        </div>
+                        <div class="fourth-article__kim"> </div>
+                    </div>
+                    <ul>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
+                    </ul>
+
+                </article>
+               
+        <article class="fourth-article__content">
+                    <a href="#" class="fourth-article__link fourth-article__link--bold fourth-article__link--orange">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
+                    <a href="" class="fourth-article__bg-link">
+                        <div class="fourth-article__text">
+                            <p class="fourth-article__p">Most Popular</p>
+                            <p class="fourth-article__p fourth-article__p--font"> Google declutters its news tab on desktop search pages with a fresh look</p>
+                            <p class="fourth-article__p fourth-article__p--color-spacing">Ivan Mehta - 6 hours ago</p>
+                        </div>
+                    </a>
+                    <div class="fourth-article__orange-content">
+                        <div class="fourth-article__orange-wrap">
+                            <h3 class="fourth-article__h3">LATEST</h3>
+                            <a href="#" class="fourth-article__link fourth-article__link--orange fourth-article__link--font">North Korea launches an ebook to spread ideology among its people</a>
+
+                        </div>
+                        <div class="fourth-article__kim"> </div>
+                    </div>
+                    <ul>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
+                    </ul>
+
+                </article>
+               
+        <article class="fourth-article__content">
+                    <a href="#" class="fourth-article__link fourth-article__link--bold fourth-article__link--orange">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
+                    <a href="" class="fourth-article__bg-link">
+                        <div class="fourth-article__text">
+                            <p class="fourth-article__p">Most Popular</p>
+                            <p class="fourth-article__p fourth-article__p--font"> Google declutters its news tab on desktop search pages with a fresh look</p>
+                            <p class="fourth-article__p fourth-article__p--color-spacing">Ivan Mehta - 6 hours ago</p>
+                        </div>
+                    </a>
+                    <div class="fourth-article__orange-content">
+                        <div class="fourth-article__orange-wrap">
+                            <h3 class="fourth-article__h3">LATEST</h3>
+                            <a href="#" class="fourth-article__link fourth-article__link--orange fourth-article__link--font">North Korea launches an ebook to spread ideology among its people</a>
+
+                        </div>
+                        <div class="fourth-article__kim"> </div>
+                    </div>
+                    <ul>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
+                        <li class="fourth-article__list"><a class="fourth-article__link fourth-article__link--size" href="#"><span class="fourth-article__bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
+                    </ul>
+
+                </article>
+               
+ 
 
             </div>
-            <div class="article-row">
-                <article>
-                    <a href="#">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
-                    <a href="">
-                        <div class="article-text">
-                            <p>Most Popular</p>
-                            <p> Google declutters its news tab on desktop search pages with a fresh look</p>
-                            <p>Ivan Mehta - 6 hours ago</p>
-                        </div>
-                    </a>
-                    <div class="article-link">
-                        <div>
-                            <h3>LATEST</h3>
-                            <a href="#">North Korea launches an ebook to spread ideology among its people</a>
-
-                        </div>
-                        <div class="kim">
-
-
-                        </div>
-                    </div>
-                    <ul>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
-                    </ul>
-
-                </article>
-                <article>
-                    <a href="#">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
-                    <a href="">
-                        <div class="article-text">
-                            <p>Most Popular</p>
-                            <p> Google declutters its news tab on desktop search pages with a fresh look</p>
-                            <p>Ivan Mehta - 6 hours ago</p>
-                        </div>
-                    </a>
-                    <div class="article-link">
-                        <div>
-                            <h3>LATEST</h3>
-                            <a href="#">North Korea launches an ebook to spread ideology among its people</a>
-
-                        </div>
-                        <div class="kim">
-
-
-                        </div>
-                    </div>
-                    <ul>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
-                    </ul>
-
-                </article>
-                <article>
-                    <a href="#">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
-                    <a href="">
-                        <div class="article-text">
-                            <p>Most Popular</p>
-                            <p> Google declutters its news tab on desktop search pages with a fresh look</p>
-                            <p>Ivan Mehta - 6 hours ago</p>
-                        </div>
-                    </a>
-                    <div class="article-link">
-                        <div>
-                            <h3>LATEST</h3>
-                            <a href="#">North Korea launches an ebook to spread ideology among its people</a>
-
-                        </div>
-                        <div class="kim">
-
-
-                        </div>
-                    </div>
-                    <ul>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
-                    </ul>
-
-                </article>
-                          <article>
-                    <a href="#">Apps <i style="font-size:25px; color:orangered" class="fas fa-angle-right"></i></a>
-                    <a href="">
-                        <div class="article-text">
-                            <p>Most Popular</p>
-                            <p> Google declutters its news tab on desktop search pages with a fresh look</p>
-                            <p>Ivan Mehta - 6 hours ago</p>
-                        </div>
-                    </a>
-                    <div class="article-link">
-                        <div>
-                            <h3>LATEST</h3>
-                            <a href="#">North Korea launches an ebook to spread ideology among its people</a>
-
-                        </div>
-                        <div class="kim">
-
-
-                        </div>
-                    </div>
-                    <ul>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Google's taking another crack at building a social network</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Tinder made a lite app that's 25x smaller than the original</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>This site shows how much your favourite athletes makes but in bitcoin</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Spotify now has a Lite app for Andriod users in 36 countries</a></li>
-                        <li><a href="#"><span class="bullet">&#8226;</span>Instagram will now ask you to think twice before posting profaniteies</a></li>
-                    </ul>
-
-                </article>
+     </section>
+  
+ </main>
+   
+     
+          <footer class="footer">
+        <div class="footer__column">
+            <div class="footer__row">
+                <a href="" class="footer__icons"><i class="fab fa-facebook-square"></i></a>
+                <a href="" class="footer__icons"><i class="fab fa-youtube"></i></a>
+                <a href="" class="footer__icons"><i class="fab fa-instagram"></i></a>
+                <a href="" class="footer__icons"><i class="fab fa-twitter"></i></a>
+                <a href="" class="footer__icons"><i class="fas fa-rss"></i></a>
+                <a href="" class="footer__icons"><i class="fab fa-pinterest-p"></i></a>
+                <a href="" class="footer__icons"><i class="fas fa-envelope"></i></a>
 
             </div>
-    </section>
-
-        <section class="fifith-content">
-
-            <!-- FIRST LINK -->
-            <div class="news"><a href="#">LATEST NEWS &gt; </a></div>
-            <!-- FIRST ROW -->
-            <div class="row">
-
-                <article class="first-clip">
-                    <div class="smallest-clip promo-one">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-					The DevOps Master Class Lifetime Bundle
-						</a>
-                        <p> <span class="strike-price">&#36;2000</span> &#36;30</p>
-                    </div>
-                </article>
-                <article class="first-clip">
-                    <div class="smallest-clip promo-two">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-					The Complete Become A Product Manager Certification Bundle
-						</a>
-                        <p> <span class="strike-price">&#36;5000</span> &#36;20</p>
-                    </div>
-                </article>
-
-                <article class="first-clip">
-                    <div class="smallest-clip promo-three">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-				The Microsoft PowerShell Certification Bundle
-						</a>
-                        <p> <span class="strike-price">&#36;9000</span> &#36;70</p>
-                    </div>
-                </article>
-                <article class="first-clip">
-                    <div class="smallest-clip promo-four">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-				The Complete Master GIMP Design Certification Bundle
-						</a>
-                        <p> <span class="strike-price">&#36;6000</span> &#36;345</p>
-                    </div>
-                </article>
+            <div class="footer__row">
+                <a href="#" class="footer__links">EVENTS</a>
+                <a href="#"  class="footer__links">ABOUT</a>
+                <a href="#"  class="footer__links">TEAM</a>
+                <a href="#"  class="footer__links">ADVERTISE</a>
+                <a href="#"  class="footer__links">JOBS</a>
+                <a href="#"  class="footer__links">CONTACT</a>
             </div>
-
-            <div class="row second-row">
-
-                <article class="first-clip">
-                    <div class="smallest-clip promo-five">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-		The Complete MATLAB Programming Master Class Bundle
-						</a>
-                        <p> <span class="strike-price">&#36;2030</span> &#36;50</p>
-                    </div>
-                </article>
-                <article class="first-clip">
-                    <div class="smallest-clip promo-six">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-				The Complete Adobe CC Training Bundle
-						</a>
-                        <p> <span class="strike-price">&#36;1000</span> &#36;20</p>
-                    </div>
-                </article>
-
-                <article class="first-clip">
-                    <div class="smallest-clip  promo-seven">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-		The Award-Winning Luminar 3 Software Bundle
-						</a>
-                        <p> <span class="strike-price">&#36;1200</span> &#36;32</p>
-                    </div>
-                </article>
-                <article class="first-clip">
-                    <div class="smallest-clip promo-eight">
-
-                    </div>
-
-                    <div class="small-link">
-                        <a href="#">
-					The Complete Master Photoshop & Adobe CC Bundle
-						</a>
-                        <p> <span class="strike-price">&#36;2300</span> &#36;330</p>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-    </main>
-    <footer>
-        <div class="footer-column">
-            <div class="footer-row">
-                <a href="" class="footer-icons"><i class="fab fa-facebook-square"></i></a>
-                <a href="" class="footer-icons"><i class="fab fa-youtube"></i></a>
-                <a href="" class="footer-icons"><i class="fab fa-instagram"></i></a>
-                <a href="" class="footer-icons"><i class="fab fa-twitter"></i></a>
-                <a href="" class="footer-icons"><i class="fas fa-rss"></i></a>
-                <a href="" class="footer-icons"><i class="fab fa-pinterest-p"></i></a>
-                <a href="" class="footer-icons"><i class="fas fa-envelope"></i></a>
-
-            </div>
-            <div class="footer-row">
-                <a href="#">EVENTS</a>
-                <a href="#">ABOUT</a>
-                <a href="#">TEAM</a>
-                <a href="#">ADVERTISE</a>
-                <a href="#">JOBS</a>
-                <a href="#">CONTACT</a>
-            </div>
-            <div class="footer-text">
-                <div><img src="images/tnw.svg" alt=""> © 2006–2019 The Next Web B.V. Made with ♥ in Amsterdam. Powered by <img src="images/stackpath.svg" alt=""></div>
+            <div class="footer__text">
+                <div><img class="footer__img" src="images/tnw.svg" alt=""> © 2006–2019 The Next Web B.V. Made with ♥ in Amsterdam. Powered by <img class="footer__img" src="images/stackpath.svg" alt=""></div>
             </div>
 
 
@@ -737,7 +578,13 @@
 
 
     </footer>
+   
+ 
+      
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <script src="https://kit.fontawesome.com/decf79a87f.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
