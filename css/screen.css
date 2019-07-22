@@ -1,5 +1,61 @@
+/*
 @media all and (max-width:480px) {
-   .nav__menu {
+   
+
+    .second-article__row {
+  
+    
+    position:unset!important;
+   
+   
+    
+        flex-direction: column;
+        width: 100%;
+    }
+    .second-article__clip {
+
+        display: flex;
+    }
+
+    .second-article__bg {
+
+        height: 44px;
+
+        width: 17%;
+        margin: 0px;
+    }
+    .second-article__wrap{
+        padding-left: 10px;
+        text-align: left;
+    }
+  
+ 
+    .footer {
+    background: #131313;
+ 
+        width: 711px!important;
+    }
+    
+   .fourth-article__row {
+     position: unset;
+   
+    }
+     .third-article__row {
+     position: unset !mportant;
+   
+    }
+    
+}
+*/
+
+@media only screen and (max-width:768px) {
+    
+    .main {
+  
+    position: unset !important;
+  
+}
+    .nav__menu {
 height: 34px;
     margin-left: 10px;
     visibility: visible;
@@ -50,74 +106,6 @@ height: 34px;
     }
 
 
-
-    .second-article__row {
-  
-    
-    position:unset!important;
-   
-   
-    
-        flex-direction: column;
-        width: 100%;
-    }
-    .second-article__clip {
-
-        display: flex;
-    }
-
-    .second-article__bg {
-
-        height: 44px;
-
-        width: 17%;
-        margin: 0px;
-    }
-    .second-article__wrap{
-        padding-left: 10px;
-        text-align: left;
-    }
-        .third-article__row {
-    display: flex;
-   flex-direction: column;
-      
-    
-}
-    .third-article__informer {
-    width: 96%
-}
- .fourth-article__row {
-   flex-direction: column;
-    flex-wrap:nowrap;
-    
-}
-    .fourth-article__content {
-   
-        width: 647px;
-    }
-    .footer {
-    background: #131313;
- 
-        width: 711px!important;
-    }
-    
-   .fourth-article__row {
-     position: unset;
-   
-    }
-     .third-article__row {
-     position: unset !mportant;
-   
-    }
-    
-}
-
-@media only screen and (max-width:768px) {
-    .main {
-  
-    position: unset !important;
-  
-}
  .first-article__wrap-two ,.first-article__wrap-three {
      width: 20.8rem;
     }
@@ -132,9 +120,17 @@ height: 34px;
     }
 
     .second-article__clip {
-        flex: 0 1 25% !important;
-        width: 38.2rem;
-
+    width: 34.2rem!important;
+    display: flex;
+    text-align: left;
+            height: 5.4rem!important;
+      
+    }
+    .second-article__bg {
+    height: 63px;
+    margin-right: 10px;
+  
+        width: 24%;
     }
     .second-article__link {
     color: black;
@@ -144,28 +140,39 @@ height: 34px;
    
     
    
-    .second-article__row {
+   
   
-    
-    position:unset!important;
-    }
-  
+/*
       .second-article__row {
     
     position: relative;
    
         left:50px;
-    }   .second-article__row {
-        position: relative;
-    left: 21px;
-    }
+    }  
+*/
   
       .third-article{
         width: 719px;
     }
-    .fourth-article__content {
-   
-        flex: 0 1 45% !important;
+          .third-article__row {
+    display: flex;
+   flex-direction: column;
+      
+    
+}
+    .third-article__informer {
+    width: 96%
+}
+  .fourth-article__row {
+   flex-direction: column;
+    flex-wrap:nowrap;
+    
+}
+ .fourth-article__content {
+
+    width: 100% !important;
+    padding: 0px;
+    margin: 8px !important;
     }
         
         .fourth-article__p--font {
@@ -206,10 +213,12 @@ height: 34px;
         display: none;
     }
 
-    .second-article__clip {
-
-        flex: 1 1 20%;
-    }
+  .second-article__clip {
+    height: 17.4rem;
+    width: 25%;
+    box-sizing: border-box;
+    margin: 1rem;
+}
        .second-article__link {
     color: black;
     font-size: 13px;
@@ -223,10 +232,18 @@ height: 34px;
     }
     
   
-   .fourth-article__row {
-     margin: 0;
-   
+ .fourth-article__content {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    padding: 0px;
+      margin: 8px;
     }
+    .fourth-article__row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
         .footer {
     background: #131313;
  
@@ -236,6 +253,7 @@ height: 34px;
 }
 
 @media only screen and (max-width:1280px) {
+ 
           .fourth-article__p--font {
     font-size: 14px;
 }

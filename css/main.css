@@ -187,14 +187,12 @@ padding-left: 10px;
 	color: black;
     
 }
-.second-article__clip {
-
-        height: 17.4rem;
-    width: 29.4rem;
+ .second-article__clip {
+    height: 17.4rem;
+    width: 20%;
     box-sizing: border-box;
-    margin: 1rem;
-      flex: 1 1 20%;
-}
+        margin: 1rem;
+    }
 .second-article__row {
 	display: flex;
         text-align: center;
@@ -225,7 +223,7 @@ padding-left: 10px;
     width: 275px;
    height: 269px;
     margin: 10px;
-    flex: 1;
+   
 }
 
 .third-article__header {
@@ -307,19 +305,17 @@ padding-left: 10px;
 .fourth-article {
  display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin: 60px auto;
 }
 
-.fourth-article__content{
-       display: flex;
+.fourth-article__content {
+    display: flex;
     flex-direction: column;
-    width: 392px;
-    flex: 0 1 25%;
-    padding: 10px;
-    height: 699px;
+    width: 28%;
+    padding: 0px;
+    margin: 25px;
 }
-
 .fourth-article__link{
       color: grey;
 }
