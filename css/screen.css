@@ -163,6 +163,9 @@ height: 34px;
     .third-article__informer {
     width: 96%
 }
+    .fourth-article {
+        width: 719px;
+    }
   .fourth-article__row {
    flex-direction: column;
     flex-wrap:nowrap;
@@ -184,7 +187,7 @@ height: 34px;
 }
     .footer{
     background: #131313;
-    width: 768px !important;
+    width:717px !important;
   
  
 }
