@@ -12,6 +12,17 @@ The main objective is to build a responsive website. We’ll be cloning The Next
  * HTML5
  * JAVASCRIPT
  * CSS Grid
+ 
+ ## Usage 
+
+#### Clone this repository
+```sh
+$ git clone https://github.com/danilozag1992/RESPONSIVE-DESIGN.git
+```
+#### CD in that directory
+```sh
+$ cd RESPONSIVE-DESIGN
+```
 
 ## Developers
 
