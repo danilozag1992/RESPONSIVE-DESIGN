@@ -10,7 +10,7 @@ The main objective is to build a responsive website. We’ll be cloning The Next
 
 ## Technologies
  * HTML5
- * Javascript
+ * JavaScript
  * CSS Grid
  
  ## Usage 
